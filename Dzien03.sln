@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasy", "Klasy\Klasy.csproj", "{D3985312-E6A4-4520-BD0B-FD8FB93BAE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dziedziczenie", "Dziedziczenie\Dziedziczenie.csproj", "{528178A2-A5EC-46E9-A11E-956EF87A385D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3985312-E6A4-4520-BD0B-FD8FB93BAE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3985312-E6A4-4520-BD0B-FD8FB93BAE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3985312-E6A4-4520-BD0B-FD8FB93BAE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3985312-E6A4-4520-BD0B-FD8FB93BAE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{528178A2-A5EC-46E9-A11E-956EF87A385D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528178A2-A5EC-46E9-A11E-956EF87A385D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528178A2-A5EC-46E9-A11E-956EF87A385D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528178A2-A5EC-46E9-A11E-956EF87A385D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BEFE4AB-573E-4B50-81AF-2468627A2C05}
+	EndGlobalSection
+EndGlobal
