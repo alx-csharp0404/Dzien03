@@ -12,7 +12,7 @@ namespace Dziedziczenie.Figury
         private double srednica;
         
         public double ObliczPole() {
-            return 3.14159 * (0.5*srednia) * (0.5*srednia);
+            return Math.PI * Math.Pow(0.5 * srednica, 2);
         }
     }
 }
