@@ -19,9 +19,12 @@ namespace MiniShop
         public double Price { get { return price; } }
 
         // ustawianie parametrow
-        public void SetParam(int id, String name, double price, String descr="")
+        public Product(int id, String name, double price, String descr="")
         {
-            //
+            this.id = id;
+            this.name = name;
+            this.price = price;
+            this.descr = descr;
         }
 
         // zmiana ceny
@@ -39,6 +42,11 @@ namespace MiniShop
         public void SetActive(bool isActive)
         {
             this.active = isActive;
+        }
+
+        public override string ToString()
+        {
+            return name;
         }
 
 
